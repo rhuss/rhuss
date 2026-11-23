@@ -4,8 +4,8 @@
 # descriptions) is a first draft for Roland's review. The nightly job never
 # changes this file; edit it by hand or with the curation skill.
 
-name: Roland Huß
-intro: Software engineer at Red Hat, chili head, co-author of the O'Reilly books "Kubernetes Patterns" and "Generative AI on Kubernetes".
+name: Dr. Roland Huß
+intro: "Distinguished Engineer at [Red Hat](https://www.redhat.com), chili head, co-author of the O'Reilly books [Kubernetes Patterns](https://k8spatterns.com) and [Generative AI on Kubernetes](https://www.oreilly.com/library/view/generative-ai-on/9781098171919/)."
 
 links:
   - {label: Blog, url: https://ro14nd.de, emoji: "✍️"}
@@ -99,6 +99,7 @@ books:
   - title: Generative AI on Kubernetes
     url: https://www.oreilly.com/library/view/generative-ai-on/9781098171919/
     description: Running LLMs on Kubernetes, from GPU scheduling and inference to fine-tuning and agentic apps, with Daniele Zonca.
+    cover: assets/books/generative-ai-on-kubernetes.png
 
 more_tools:
   - {repo: rhuss/cc-handoff, tagline: Claude Code plugin that writes session handoff notes so the next session picks up decisions and open work}
@@ -111,7 +112,6 @@ more_tools:
   - {repo: rhuss/corgi-voice, tagline: "Voice dictation into Corgi panes with a local Whisper server, plus transcript recording"}
   - {repo: rhuss/corgi-roundup, tagline: "Recap and sort open agent sessions across Corgi workspaces, then close them or follow up"}
   - {repo: rhuss/claude-usage, tagline: "Token usage, cache hit rates and cost estimates from local Claude Code session logs"}
-  - {repo: rhuss/openshell-sdk-go, tagline: Go SDK for OpenShell with guides and an API reference mapped to gRPC}
   - {repo: rhuss/mcp-readwise-server, tagline: MCP server for Readwise highlights and the Reader library that stores no credentials}
   - {repo: rhuss/slidev-addon-contrast, tagline: Live contrast knob for Slidev decks to tune tinted boxes for a weak projector}
   - {repo: rhuss/alfred-google-tasks-workflow, tagline: "Alfred workflow to add, list and complete Google Tasks, with natural date parsing"}
@@ -119,3 +119,4 @@ more_tools:
 
 settings:
   talks_shown: 8
+  posts_shown: 5

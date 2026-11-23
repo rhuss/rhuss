@@ -46,9 +46,8 @@
     <td align="center" valign="top" width="{{ book_width }}">
 {% if b.cover %}
       <a href="{{ b.url | e }}"><img src="{{ b.cover | e }}" alt="{{ b.title | e }}" width="140"></a><br>
-{% else %}
-      <a href="{{ b.url | e }}"><b>{{ b.title | e }}</b></a><br>
 {% endif %}
+      <a href="{{ b.url | e }}"><b>{{ b.title | e }}</b></a><br>
       {{ b.description | e }}
     </td>
 {% endfor %}
@@ -83,6 +82,10 @@ xychart-beta
 {% else %}
 {{ unavailable }}
 {% endfor %}
+{% if blog_url %}
+
+→ More posts on [{{ blog_host }}]({{ blog_url }})
+{% endif %}
 {% endif %}
 {% if more_tools %}
 

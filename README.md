@@ -1,6 +1,6 @@
-# Roland Huß
+# Dr. Roland Huß
 
-Software engineer at Red Hat, chili head, co-author of the O'Reilly books "Kubernetes Patterns" and "Generative AI on Kubernetes".
+Distinguished Engineer at [Red Hat](https://www.redhat.com), chili head, co-author of the O'Reilly books [Kubernetes Patterns](https://k8spatterns.com) and [Generative AI on Kubernetes](https://www.oreilly.com/library/view/generative-ai-on/9781098171919/).
 
 ✍️ [Blog](https://ro14nd.de) · 💼 [LinkedIn](https://www.linkedin.com/in/ro14nd/)
 
@@ -46,9 +46,11 @@ Software engineer at Red Hat, chili head, co-author of the O'Reilly books "Kuber
   <tr>
     <td align="center" valign="top" width="50%">
       <a href="https://k8spatterns.com"><img src="assets/books/kubernetes-patterns.png" alt="Kubernetes Patterns" width="140"></a><br>
+      <a href="https://k8spatterns.com"><b>Kubernetes Patterns</b></a><br>
       Reusable elements for designing cloud native applications, with Bilgin Ibryam (2nd edition).
     </td>
     <td align="center" valign="top" width="50%">
+      <a href="https://www.oreilly.com/library/view/generative-ai-on/9781098171919/"><img src="assets/books/generative-ai-on-kubernetes.png" alt="Generative AI on Kubernetes" width="140"></a><br>
       <a href="https://www.oreilly.com/library/view/generative-ai-on/9781098171919/"><b>Generative AI on Kubernetes</b></a><br>
       Running LLMs on Kubernetes, from GPU scheduling and inference to fine-tuning and agentic apps, with Daniele Zonca.
     </td>
@@ -79,6 +81,10 @@ xychart-beta
 - [Approved Isn't the Same as Trusted](https://ro14nd.de/approved-isnt-trusted/) · 2026-10-21
 - [Fences the Flock Can't Talk Around](https://ro14nd.de/fences-the-flock-cant-talk-around/) · 2026-10-04
 - [Your API Is Not Your MCP Tool](https://ro14nd.de/mcp-tool-design-patterns/) · 2026-08-06
+- [One Stray Leads the Whole Flock Astray](https://ro14nd.de/one-stray-leads-the-whole-flock-astray/) · 2026-07-20
+- [When Your AI Agent Treats Scripts Like Suggestions](https://ro14nd.de/agent-scripts-suggestions/) · 2026-07-13
+
+→ More posts on [ro14nd.de](https://ro14nd.de/)
 
 ## More tools
 
@@ -92,7 +98,6 @@ xychart-beta
 - **[corgi-voice](https://github.com/rhuss/corgi-voice)**: Voice dictation into Corgi panes with a local Whisper server, plus transcript recording
 - **[corgi-roundup](https://github.com/rhuss/corgi-roundup)**: Recap and sort open agent sessions across Corgi workspaces, then close them or follow up
 - **[claude-usage](https://github.com/rhuss/claude-usage)**: Token usage, cache hit rates and cost estimates from local Claude Code session logs
-- **[openshell-sdk-go](https://github.com/rhuss/openshell-sdk-go)**: Go SDK for OpenShell with guides and an API reference mapped to gRPC
 - **[mcp-readwise-server](https://github.com/rhuss/mcp-readwise-server)**: MCP server for Readwise highlights and the Reader library that stores no credentials
 - **[slidev-addon-contrast](https://github.com/rhuss/slidev-addon-contrast)**: Live contrast knob for Slidev decks to tune tinted boxes for a weak projector
 - **[alfred-google-tasks-workflow](https://github.com/rhuss/alfred-google-tasks-workflow)**: Alfred workflow to add, list and complete Google Tasks, with natural date parsing

@@ -5,6 +5,7 @@ from __future__ import annotations
 import copy
 import json
 import re
+from urllib.parse import urlsplit
 from datetime import date
 from pathlib import Path
 
@@ -690,7 +691,7 @@ def test_yaml_syntax_error_leaves_readme_and_snapshot_untouched(tmp_path, capsys
 
 # Fixed template vocabulary: headings, stat labels, chart keywords, notes, footer, month names.
 TEMPLATE_WORDS = {
-    "Current", "focus", "Community", "Books", "Talks", "Writing", "More", "tools",
+    "Current", "focus", "Community", "Books", "Talks", "Writing", "More", "tools", "posts", "on",
     "stars", "talks", "books", "Last", "updated", "generated", "by", "profilegen",
     "Currently", "unavailable", "mermaid", "xychart", "beta", "title", "per", "year",
     "axis", "bar", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
@@ -698,7 +699,7 @@ TEMPLATE_WORDS = {
 
 
 def _profile_and_data_strings(profile, snap) -> list[str]:
-    strings = [profile.name, profile.intro]
+    strings = [profile.name, profile.intro, urlsplit(profile.settings.feed_url).netloc]
     strings += [link.label for link in profile.links]
     strings += [b.label for b in profile.badges]
     for p in profile.main_projects + profile.community + profile.more_tools:

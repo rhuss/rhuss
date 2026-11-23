@@ -269,6 +269,9 @@ def _view(profile: Profile, snap: dict, root: Path, footer: str) -> dict:
         stats.append(f"🎤 **{len(all_talks)}** talks")
     stats.append(f"📚 **{len(profile.books)}** books")
 
+    feed = urlsplit(profile.settings.feed_url)
+    blog_url = f"{feed.scheme}://{feed.netloc}/" if feed.scheme in ("http", "https") and feed.netloc else None
+
     books = []
     for b in profile.books:
         cover = b.cover if b.cover and (Path(root) / b.cover).is_file() else None
@@ -296,6 +299,8 @@ def _view(profile: Profile, snap: dict, root: Path, footer: str) -> dict:
         "posts": _section(
             [_post_line(p) for p in (snap.get("posts") or [])[: profile.settings.posts_shown]], "posts" in snap
         ),
+        "blog_url": blog_url,
+        "blog_host": feed.netloc,
         "more_tools": _projects(profile.more_tools, repos),
         "unavailable": UNAVAILABLE,
         "footer": footer,

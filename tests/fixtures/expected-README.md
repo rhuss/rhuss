@@ -30,6 +30,7 @@ Engineer at Red Hat, co-author of "Kubernetes Patterns", chili head.
   <tr>
     <td align="center" valign="top" width="50%">
       <a href="https://k8spatterns.com"><img src="assets/books/kubernetes-patterns.png" alt="Kubernetes Patterns" width="140"></a><br>
+      <a href="https://k8spatterns.com"><b>Kubernetes Patterns</b></a><br>
       Reusable patterns for cloud-native apps
     </td>
     <td align="center" valign="top" width="50%">
@@ -61,6 +62,8 @@ xychart-beta
 - [Specs Before Code](https://ro14nd.de/specs-before-code/) · 2026-11-12
 - [Counting Tokens on the Road](https://ro14nd.de/counting-tokens/) · 2026-10-03
 - [Ten Years of Jolokia](https://ro14nd.de/ten-years-jolokia/) · 2026-08-21
+
+→ More posts on [ro14nd.de](https://ro14nd.de/)
 
 ## More tools
 

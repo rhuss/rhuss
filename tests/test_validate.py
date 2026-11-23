@@ -550,3 +550,15 @@ def test_unparseable_url_is_a_validation_error_not_a_crash(field):
     else:
         d.setdefault("settings", {})["feed_url"] = bad
         assert errors_at(d, "settings.feed_url")
+
+
+def test_intro_links_count_visible_text_only():
+    from profilegen.validate import validate
+    import yaml
+    from pathlib import Path
+
+    d = yaml.safe_load((Path(__file__).parent / "fixtures" / "profile.yaml").read_text(encoding="utf-8"))
+    d["intro"] = "Engineer at [Red Hat](https://www.redhat.com/" + "x" * 200 + "), chili head."
+    assert not [e for e in validate(d) if e.startswith("intro")]
+    d["intro"] = "Engineer at [Red Hat](http://www.redhat.com)."
+    assert [e for e in validate(d) if e.startswith("intro") and "https" in e]

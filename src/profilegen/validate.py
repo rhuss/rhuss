@@ -19,6 +19,7 @@ TOP_LEVEL_REQUIRED = ("name", "intro", "links", "main_projects", "books")
 TOP_LEVEL_OPTIONAL = ("badges", "community", "more_tools", "settings")
 
 INTRO_MAX = 160
+MD_LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 MAIN_PROJECTS_MIN, MAIN_PROJECTS_MAX = 1, 12
 DESCRIPTION_MAX_SENTENCES = 3
 TALKS_SHOWN_MIN, TALKS_SHOWN_MAX = 5, 10
@@ -138,7 +139,12 @@ def validate(profile_dict: dict) -> list[str]:
 
     c.required_str(d, "name", "name")
     intro = c.required_str(d, "intro", "intro")
-    c.one_line(intro, "intro", INTRO_MAX)
+    if intro is not None:
+        # The intro may contain Markdown links; limits apply to the visible text, link targets must be https.
+        for target in MD_LINK.findall(intro):
+            if urlparse(target[1]).scheme != "https" or not urlparse(target[1]).netloc:
+                c.err("intro", f"link target must be an https URL: {target[1]}")
+        c.one_line(MD_LINK.sub(lambda m: m.group(1), intro), "intro", INTRO_MAX)
 
     _validate_links(c, d)
     _validate_badges(c, d)

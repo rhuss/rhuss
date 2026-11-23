@@ -11,9 +11,9 @@ Software engineer at Red Hat, chili head, co-author of the O'Reilly books "Kuber
 ## Current focus
 
 - 📐 **[cc-spex](https://github.com/rhuss/cc-spex)** ⭐ 123<br>
-  Spec-driven development for Claude Code, Codex and OpenCode, built as extensions on top of GitHub's Spec-Kit. Adds brainstorming, review gates after spec and plan, worktree isolation, parallel agent teams and spec/code drift checks. A two-phase flow puts the spec up for review before any code is written.
+  Spec-driven development for Claude Code, Codex and OpenCode, a crossover of GitHub's Spec-Kit with the superpowers skills, built as Spec-Kit extensions. Adds brainstorming, review gates after spec and plan, worktree isolation, parallel agent teams and spec/code drift checks. A two-phase flow puts the spec up for review before any code is written.
 - ⏱️ **[AgentTacho](https://agenttacho.dev)** ⭐ 4<br>
-  macOS menu bar app that shows coding-agent usage per account: Claude and Codex plan limits with reset times, and spend against a budget for pay-per-token accounts. Reads the logs that Claude Code, Codex and OpenCode already write locally, with a breakdown per model and project and notifications when a threshold is crossed.
+  A calm, simple macOS menu bar app for coding-agent usage: one icon and percentage per account, with details only when you click. Its flexible configuration handles several accounts per provider, Claude and Codex plan limits with reset times, and pay-per-token accounts with their own or shared budgets. It only reads the logs that Claude Code, Codex and OpenCode already write locally.
 - 🧭 **[cc-guide](https://github.com/rhuss/cc-guide)** ⭐ 0<br>
   Plugin for Claude Code, Codex and OpenCode that writes guides from source repositories, transcripts and notes, page by page. A fresh reviewer checks every page against sources pinned to exact commits. When the sources change, it finds the pages that cite changed files and updates only those.
 - 🐕 **[Corgi](https://github.com/tals/corgi)** ⭐ 212<br>

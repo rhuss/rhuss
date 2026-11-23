@@ -24,7 +24,7 @@ main_projects:
     name: cc-spex
     emoji: "📐"
     description: >-
-      Spec-driven development for Claude Code, Codex and OpenCode, built as extensions on top of GitHub's Spec-Kit.
+      Spec-driven development for Claude Code, Codex and OpenCode, a crossover of GitHub's Spec-Kit with the superpowers skills, built as Spec-Kit extensions.
       Adds brainstorming, review gates after spec and plan, worktree isolation, parallel agent teams and spec/code drift checks.
       A two-phase flow puts the spec up for review before any code is written.
 
@@ -33,8 +33,9 @@ main_projects:
     url: https://agenttacho.dev
     emoji: "⏱️"
     description: >-
-      macOS menu bar app that shows coding-agent usage per account: Claude and Codex plan limits with reset times, and spend against a budget for pay-per-token accounts.
-      Reads the logs that Claude Code, Codex and OpenCode already write locally, with a breakdown per model and project and notifications when a threshold is crossed.
+      A calm, simple macOS menu bar app for coding-agent usage: one icon and percentage per account, with details only when you click.
+      Its flexible configuration handles several accounts per provider, Claude and Codex plan limits with reset times, and pay-per-token accounts with their own or shared budgets.
+      It only reads the logs that Claude Code, Codex and OpenCode already write locally.
 
   - repo: rhuss/cc-guide
     name: cc-guide

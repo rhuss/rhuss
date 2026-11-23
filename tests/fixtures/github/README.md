@@ -1,0 +1,3 @@
+Synthetic, hand-made GitHub REST API responses (never fetched from the network). `users-rhuss-repos-page1.json` and `-page2.json` stand for `GET /users/rhuss/repos?type=owner&per_page=100` (page 1 is served with a `Link: <...&page=2>; rel="next"` header), `orgs-<org>-repos.json` for `GET /users/<org>/repos?type=owner&per_page=100` (the users endpoint also serves organizations).
+`repos-<owner>-<name>.json` stands for `GET /repos/<owner>/<name>`: `repos-rhuss-secret-thing.json` is private, `repos-rhuss-agentmeter.json` is a rename (its `full_name` is `AgentTacho/agenttacho`).
+`not-found.json` is GitHub's 404 body for a missing or inaccessible repository.

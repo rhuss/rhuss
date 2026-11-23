@@ -1,0 +1,23 @@
+# Test fixture for tests/test_scan.py (T024): listed repos cover every proposal kind.
+name: Roland Huß
+intro: Engineer at Red Hat.
+links:
+  - {label: Blog, url: https://ro14nd.de}
+  - {label: LinkedIn, url: https://www.linkedin.com/in/ro14nd/}
+main_projects:
+  - {repo: rhuss/cc-spex, description: Spec-driven development for Claude Code.}
+  - {repo: rhuss/agentmeter, description: Token budgets for coding agents.}
+  - {repo: rhuss/corgi, description: Voice relay for meetings.}
+  - {repo: rhuss/debaser, description: Debate tooling.}
+community:
+  - {repo: knative/serving, role: maintainer, tagline: Serverless containers on Kubernetes}
+books:
+  - {title: Kubernetes Patterns, url: https://k8spatterns.com, description: Reusable patterns}
+more_tools:
+  - {repo: rhuss/cc-cfp, tagline: Draft conference proposals}
+  - {repo: rhuss/gone-tool, tagline: Deleted on GitHub}
+  - {repo: rhuss/hidden-tool, tagline: Turned private on GitHub}
+settings:
+  owned_owners: [rhuss, AgentTacho]
+  owned_extra_repos: []
+  scan_roots: [~/Development]

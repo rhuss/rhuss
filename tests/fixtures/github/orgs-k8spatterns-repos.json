@@ -1,0 +1,68 @@
+[
+  {
+    "id": 100091,
+    "name": "examples",
+    "full_name": "k8spatterns/examples",
+    "private": false,
+    "owner": {
+      "login": "k8spatterns",
+      "html_url": "https://github.com/k8spatterns",
+      "type": "Organization"
+    },
+    "html_url": "https://github.com/k8spatterns/examples",
+    "description": "Examples for Kubernetes Patterns",
+    "fork": false,
+    "url": "https://api.github.com/repos/k8spatterns/examples",
+    "pushed_at": "2026-11-01T10:00:00Z",
+    "stargazers_count": 1234,
+    "watchers_count": 1234,
+    "forks_count": 123,
+    "archived": false,
+    "visibility": "public",
+    "default_branch": "main"
+  },
+  {
+    "id": 100098,
+    "name": "k8spatterns.com",
+    "full_name": "k8spatterns/k8spatterns.com",
+    "private": false,
+    "owner": {
+      "login": "k8spatterns",
+      "html_url": "https://github.com/k8spatterns",
+      "type": "Organization"
+    },
+    "html_url": "https://github.com/k8spatterns/k8spatterns.com",
+    "description": "Website for Kubernetes Patterns",
+    "fork": false,
+    "url": "https://api.github.com/repos/k8spatterns/k8spatterns.com",
+    "pushed_at": "2026-11-01T10:00:00Z",
+    "stargazers_count": 6,
+    "watchers_count": 6,
+    "forks_count": 0,
+    "archived": false,
+    "visibility": "public",
+    "default_branch": "main"
+  },
+  {
+    "id": 100105,
+    "name": "kubernetes",
+    "full_name": "k8spatterns/kubernetes",
+    "private": false,
+    "owner": {
+      "login": "k8spatterns",
+      "html_url": "https://github.com/k8spatterns",
+      "type": "Organization"
+    },
+    "html_url": "https://github.com/k8spatterns/kubernetes",
+    "description": "Fork of kubernetes/kubernetes",
+    "fork": true,
+    "url": "https://api.github.com/repos/k8spatterns/kubernetes",
+    "pushed_at": "2022-01-10T12:00:00Z",
+    "stargazers_count": 4,
+    "watchers_count": 4,
+    "forks_count": 0,
+    "archived": false,
+    "visibility": "public",
+    "default_branch": "master"
+  }
+]

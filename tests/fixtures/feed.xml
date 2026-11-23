@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ro14nd</title>
+    <link>https://ro14nd.de/</link>
+    <description>Recent content on ro14nd</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Nov 2026 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ro14nd.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Specs First: Spec-Driven Development with Claude Code</title>
+      <link>https://ro14nd.de/sdd-claude-code/</link>
+      <pubDate>Wed, 14 Oct 2026 08:00:00 +0000</pubDate>
+      <guid>https://ro14nd.de/sdd-claude-code/</guid>
+      <description>&lt;p&gt;Why writing the spec first pays off when an agent writes the code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AgentTacho: Budgets for Coding Agents</title>
+      <link>https://ro14nd.de/agenttacho/</link>
+      <pubDate>Mon, 02 Nov 2026 00:30:00 +0100</pubDate>
+      <guid>https://ro14nd.de/agenttacho/</guid>
+      <description>&lt;p&gt;Tracking what coding agents cost against a team budget.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Patterns &amp; AI Agents</title>
+      <link>https://ro14nd.de/k8s-patterns-ai-agents/</link>
+      <pubDate>Tue, 15 Sep 2026 20:00:00 -0500</pubDate>
+      <guid>https://ro14nd.de/k8s-patterns-ai-agents/</guid>
+      <description>&lt;p&gt;Which classic Kubernetes patterns still hold for agent workloads.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running MCP Servers on OpenShift</title>
+      <link>https://ro14nd.de/mcp-openshift/</link>
+      <pubDate>Fri, 20 Nov 2026 10:00:00 +0000</pubDate>
+      <guid>https://ro14nd.de/mcp-openshift/</guid>
+      <description>&lt;p&gt;A walkthrough of deploying MCP servers on a cluster.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Year of Agentic Coding</title>
+      <link>https://ro14nd.de/agentic-year/</link>
+      <pubDate>Thu, 01 Jan 2026 09:00:00 +0000</pubDate>
+      <guid>https://ro14nd.de/agentic-year/</guid>
+      <description>&lt;p&gt;Looking back on twelve months of working with coding agents.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

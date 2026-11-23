@@ -1,0 +1,22 @@
+{
+  "id": 100140,
+  "name": "OpenShell",
+  "full_name": "NVIDIA/OpenShell",
+  "private": false,
+  "owner": {
+    "login": "NVIDIA",
+    "html_url": "https://github.com/NVIDIA",
+    "type": "Organization"
+  },
+  "html_url": "https://github.com/NVIDIA/OpenShell",
+  "description": "Sandboxed runtime for autonomous agents",
+  "fork": false,
+  "url": "https://api.github.com/repos/NVIDIA/OpenShell",
+  "pushed_at": "2026-11-01T10:00:00Z",
+  "stargazers_count": 2450,
+  "watchers_count": 2450,
+  "forks_count": 245,
+  "archived": false,
+  "visibility": "public",
+  "default_branch": "main"
+}

@@ -1,0 +1,22 @@
+{
+  "id": 100112,
+  "name": "jolokia",
+  "full_name": "jolokia/jolokia",
+  "private": false,
+  "owner": {
+    "login": "jolokia",
+    "html_url": "https://github.com/jolokia",
+    "type": "Organization"
+  },
+  "html_url": "https://github.com/jolokia/jolokia",
+  "description": "JMX on Capsaicin",
+  "fork": false,
+  "url": "https://api.github.com/repos/jolokia/jolokia",
+  "pushed_at": "2026-11-01T10:00:00Z",
+  "stargazers_count": 834,
+  "watchers_count": 834,
+  "forks_count": 83,
+  "archived": false,
+  "visibility": "public",
+  "default_branch": "2.x"
+}

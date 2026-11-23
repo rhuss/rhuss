@@ -1,0 +1,100 @@
+{#- Profile README template, rendered by profilegen.render (FR-001..FR-010).
+    All prose comes from profile.yaml or live data; this file only adds headings and labels.
+    Rendered with trim_blocks and lstrip_blocks, so block tags on their own line leave no blank lines. -#}
+# {{ name }}
+
+{{ intro }}
+
+{{ links | join(" · ") }}
+{% if badges %}
+
+{{ badges | join(" ") }}
+{% endif %}
+{% if stats %}
+
+{{ stats | join(" · ") }}
+{% endif %}
+{#- A section is None when hidden; empty entries mean its source is unavailable (FR-019). #}
+{% if main_projects %}
+
+## Current focus
+
+{% for p in main_projects.entries %}
+- {{ p.emoji_prefix }}**[{{ p.name }}]({{ p.url }})** ⭐ {{ p.stars }}<br>
+  {{ p.description }}
+{% else %}
+{{ unavailable }}
+{% endfor %}
+{% endif %}
+{% if community %}
+
+## Community
+
+{% for p in community.entries %}
+- {{ p.emoji_prefix }}**[{{ p.name }}]({{ p.url }})** · _{{ p.role }}_ · ⭐ {{ p.stars }}<br>
+  {{ p.tagline }}
+{% else %}
+{{ unavailable }}
+{% endfor %}
+{% endif %}
+
+## Books
+
+<table>
+  <tr>
+{% for b in books %}
+    <td align="center" valign="top" width="{{ book_width }}">
+{% if b.cover %}
+      <a href="{{ b.url | e }}"><img src="{{ b.cover | e }}" alt="{{ b.title | e }}" width="140"></a><br>
+{% else %}
+      <a href="{{ b.url | e }}"><b>{{ b.title | e }}</b></a><br>
+{% endif %}
+      {{ b.description | e }}
+    </td>
+{% endfor %}
+  </tr>
+</table>
+{% if talks %}
+
+## Talks
+
+{% for line in talks.entries %}
+- {{ line }}
+{% else %}
+{{ unavailable }}
+{% endfor %}
+{% if chart %}
+
+```mermaid
+xychart-beta
+    title "Talks per year"
+    x-axis [{{ chart.years | join(", ") }}]
+    y-axis "Talks" 0 --> {{ chart.max }}
+    bar [{{ chart.counts | join(", ") }}]
+```
+{% endif %}
+{% endif %}
+{% if posts %}
+
+## Writing
+
+{% for line in posts.entries %}
+- {{ line }}
+{% else %}
+{{ unavailable }}
+{% endfor %}
+{% endif %}
+{% if more_tools %}
+
+## More tools
+
+{% for p in more_tools.entries %}
+- {{ p.emoji_prefix }}**[{{ p.name }}]({{ p.url }})**: {{ p.tagline }}
+{% else %}
+{{ unavailable }}
+{% endfor %}
+{% endif %}
+
+---
+
+{{ footer }}

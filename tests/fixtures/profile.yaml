@@ -1,0 +1,36 @@
+# Test fixture: small valid profile covering every section.
+name: Roland Huß
+intro: Engineer at Red Hat, co-author of "Kubernetes Patterns", chili head.
+links:
+  - {label: Blog, url: https://ro14nd.de, emoji: "✍️"}
+  - {label: LinkedIn, url: https://www.linkedin.com/in/ro14nd/, emoji: "💼"}
+badges:
+  - {label: Kubernetes, color: 326CE5, logo: kubernetes, logo_color: white}
+  - {label: Claude Code, color: D97757, logo: anthropic}
+  - {label: Spec-Driven, color: green}
+main_projects:
+  - repo: rhuss/cc-spex
+    name: cc-spex
+    emoji: "📐"
+    description: >-
+      Spec-driven development workflow for Claude Code. Brainstorm, specify, plan, and ship with review gates.
+  - repo: AgentTacho/agenttacho
+    name: AgentTacho
+    url: https://agenttacho.dev
+    emoji: "🏎️"
+    description: Tracks token budgets of coding agents, e.g. Claude Code vs. Codex. Works with v1.0 and 3.12 setups!
+  - repo: rhuss/corgi
+    description: Voice relay for meetings
+community:
+  - {repo: jolokia/jolokia, name: Jolokia, role: creator, tagline: "JMX on Capsaicin, HTTP/JSON bridge for JMX"}
+  - {repo: knative/serving, name: Knative Serving, role: maintainer, tagline: Serverless containers on Kubernetes}
+books:
+  - {title: Kubernetes Patterns, url: https://k8spatterns.com, description: Reusable patterns for cloud-native apps, cover: assets/books/kubernetes-patterns.png}
+  - title: Generative AI on Kubernetes
+    url: "https://www.oreilly.com/search/?q=Generative%20AI%20on%20Kubernetes"
+    description: Running LLM workloads on Kubernetes
+more_tools:
+  - {repo: rhuss/cc-cfp, tagline: Draft conference proposals with a simulated program committee}
+  - {repo: rhuss/cc-guide, emoji: "🧭", tagline: Source-verified guides split by persona}
+settings:
+  talks_shown: 6

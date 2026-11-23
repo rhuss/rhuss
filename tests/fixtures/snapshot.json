@@ -1,0 +1,181 @@
+{
+  "posts": [
+    {
+      "date": "2026-11-12",
+      "title": "Specs Before Code",
+      "url": "https://ro14nd.de/specs-before-code/"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Counting Tokens on the Road",
+      "url": "https://ro14nd.de/counting-tokens/"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Ten Years of Jolokia",
+      "url": "https://ro14nd.de/ten-years-jolokia/"
+    }
+  ],
+  "repos": {
+    "AgentTacho/agenttacho": {
+      "full_name": "AgentTacho/agenttacho",
+      "stars": "1.2k",
+      "url": "https://github.com/AgentTacho/agenttacho"
+    },
+    "jolokia/jolokia": {
+      "full_name": "jolokia/jolokia",
+      "stars": "845",
+      "url": "https://github.com/jolokia/jolokia"
+    },
+    "knative/serving": {
+      "full_name": "knative/serving",
+      "stars": "5.8k",
+      "url": "https://github.com/knative/serving"
+    },
+    "rhuss/cc-cfp": {
+      "full_name": "rhuss/cc-cfp",
+      "stars": "7",
+      "url": "https://github.com/rhuss/cc-cfp"
+    },
+    "rhuss/cc-guide": {
+      "full_name": "rhuss/cc-guide",
+      "stars": "41",
+      "url": "https://github.com/rhuss/cc-guide"
+    },
+    "rhuss/cc-spex": {
+      "full_name": "rhuss/cc-spex",
+      "stars": "312",
+      "url": "https://github.com/rhuss/cc-spex"
+    },
+    "rhuss/corgi": {
+      "full_name": "rhuss/corgi",
+      "stars": "0",
+      "url": "https://github.com/rhuss/corgi"
+    }
+  },
+  "talk_years": [
+    2021,
+    2022,
+    2024,
+    2025,
+    2026
+  ],
+  "talks": [
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=sddCodeEurope"
+        }
+      ],
+      "month": 6,
+      "title": "Spec-Driven Development in Practice",
+      "url": "https://ro14nd-talks.github.io/archive/2026/sdd-codeeurope-2026.pdf",
+      "venue": "Code Europe, Krakow",
+      "year": 2026
+    },
+    {
+      "extras": [],
+      "month": null,
+      "title": "Fireside Chat on Open Source",
+      "url": null,
+      "venue": "Red Hat Summit Connect",
+      "year": 2026
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=mcpExplained"
+        },
+        {
+          "label": "Demo",
+          "url": "https://github.com/rhuss/mcp-demo"
+        }
+      ],
+      "month": 10,
+      "title": "MCP Servers Explained",
+      "url": "https://ro14nd-talks.github.io/archive/2026/mcp-jug-darmstadt.pdf",
+      "venue": "JUG Darmstadt",
+      "year": 2026
+    },
+    {
+      "extras": [],
+      "month": 3,
+      "title": "Agents on Kubernetes",
+      "url": "https://speakerdeck.com/rhuss/agents-on-kubernetes",
+      "venue": "KubeCon Europe, London",
+      "year": 2026
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Knative Functions Deep Dive",
+      "url": "https://ro14nd-talks.github.io/archive/2025/knative-functions.pdf",
+      "venue": "KubeCon North America, Salt Lake City",
+      "year": 2025
+    },
+    {
+      "extras": [],
+      "month": null,
+      "title": "Some random note without structure",
+      "url": null,
+      "venue": "",
+      "year": 2025
+    },
+    {
+      "extras": [],
+      "month": 3,
+      "title": "Serverless Java",
+      "url": "https://ro14nd-talks.github.io/archive/2025/serverless-java.pdf",
+      "venue": "JavaLand",
+      "year": 2025
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=k8sPatterns"
+        }
+      ],
+      "month": 10,
+      "title": "Kubernetes Patterns, 2nd Edition",
+      "url": "https://k8spatterns.com",
+      "venue": "Devoxx Belgium, Antwerp",
+      "year": 2024
+    },
+    {
+      "extras": [],
+      "month": 7,
+      "title": "WebAssembly on Kubernetes",
+      "url": "https://ro14nd-talks.github.io/archive/2024/wasm-k8s.pdf",
+      "venue": "WeAreDevelopers, Berlin",
+      "year": 2024
+    },
+    {
+      "extras": [],
+      "month": 6,
+      "title": "Docker Maven Plugin Revisited",
+      "url": "https://ro14nd-talks.github.io/archive/2022/dmp-revisited.pdf",
+      "venue": "JCON Europe, Cologne",
+      "year": 2022
+    },
+    {
+      "extras": [],
+      "month": 9,
+      "title": "Jolokia 2.0",
+      "url": "https://jolokia.org",
+      "venue": "JavaZone",
+      "year": 2022
+    },
+    {
+      "extras": [],
+      "month": 2,
+      "title": "Tekton Pipelines",
+      "url": "https://ro14nd-talks.github.io/archive/2021/tekton-pipelines.pdf",
+      "venue": "DevConf.CZ",
+      "year": 2021
+    }
+  ],
+  "total_stars": "2.5k"
+}

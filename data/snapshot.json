@@ -1,0 +1,1318 @@
+{
+  "posts": [
+    {
+      "date": "2026-10-21",
+      "title": "Approved Isn't the Same as Trusted",
+      "url": "https://ro14nd.de/approved-isnt-trusted/"
+    },
+    {
+      "date": "2026-10-04",
+      "title": "Fences the Flock Can't Talk Around",
+      "url": "https://ro14nd.de/fences-the-flock-cant-talk-around/"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Your API Is Not Your MCP Tool",
+      "url": "https://ro14nd.de/mcp-tool-design-patterns/"
+    }
+  ],
+  "repos": {
+    "AgentTacho/agenttacho": {
+      "full_name": "AgentTacho/agenttacho",
+      "stars": "4",
+      "url": "https://github.com/AgentTacho/agenttacho"
+    },
+    "ai-openshell/openshell": {
+      "full_name": "ai-openshell/openshell",
+      "stars": "21.9k",
+      "url": "https://github.com/ai-openshell/openshell"
+    },
+    "eclipse-jkube/jkube": {
+      "full_name": "eclipse-jkube/jkube",
+      "stars": "855",
+      "url": "https://github.com/eclipse-jkube/jkube"
+    },
+    "fabric8io/docker-maven-plugin": {
+      "full_name": "fabric8io/docker-maven-plugin",
+      "stars": "1.9k",
+      "url": "https://github.com/fabric8io/docker-maven-plugin"
+    },
+    "jolokia/jolokia": {
+      "full_name": "jolokia/jolokia",
+      "stars": "851",
+      "url": "https://github.com/jolokia/jolokia"
+    },
+    "knative/serving": {
+      "full_name": "knative/serving",
+      "stars": "6.1k",
+      "url": "https://github.com/knative/serving"
+    },
+    "rhuss/alfred-google-tasks-workflow": {
+      "full_name": "rhuss/alfred-google-tasks-workflow",
+      "stars": "1",
+      "url": "https://github.com/rhuss/alfred-google-tasks-workflow"
+    },
+    "rhuss/aprofile": {
+      "full_name": "rhuss/aprofile",
+      "stars": "1",
+      "url": "https://github.com/rhuss/aprofile"
+    },
+    "rhuss/cc-guide": {
+      "full_name": "rhuss/cc-guide",
+      "stars": "0",
+      "url": "https://github.com/rhuss/cc-guide"
+    },
+    "rhuss/cc-handoff": {
+      "full_name": "rhuss/cc-handoff",
+      "stars": "0",
+      "url": "https://github.com/rhuss/cc-handoff"
+    },
+    "rhuss/cc-hugo": {
+      "full_name": "rhuss/cc-hugo",
+      "stars": "0",
+      "url": "https://github.com/rhuss/cc-hugo"
+    },
+    "rhuss/cc-jira": {
+      "full_name": "rhuss/cc-jira",
+      "stars": "0",
+      "url": "https://github.com/rhuss/cc-jira"
+    },
+    "rhuss/cc-memory": {
+      "full_name": "rhuss/cc-memory",
+      "stars": "0",
+      "url": "https://github.com/rhuss/cc-memory"
+    },
+    "rhuss/cc-prose": {
+      "full_name": "rhuss/cc-prose",
+      "stars": "3",
+      "url": "https://github.com/rhuss/cc-prose"
+    },
+    "rhuss/cc-review": {
+      "full_name": "rhuss/cc-review",
+      "stars": "6",
+      "url": "https://github.com/rhuss/cc-review"
+    },
+    "rhuss/cc-skill": {
+      "full_name": "rhuss/cc-skill",
+      "stars": "2",
+      "url": "https://github.com/rhuss/cc-skill"
+    },
+    "rhuss/cc-slidev": {
+      "full_name": "rhuss/cc-slidev",
+      "stars": "54",
+      "url": "https://github.com/rhuss/cc-slidev"
+    },
+    "rhuss/cc-spex": {
+      "full_name": "rhuss/cc-spex",
+      "stars": "123",
+      "url": "https://github.com/rhuss/cc-spex"
+    },
+    "rhuss/cc-threat-model-assessment": {
+      "full_name": "rhuss/cc-threat-model-assessment",
+      "stars": "0",
+      "url": "https://github.com/rhuss/cc-threat-model-assessment"
+    },
+    "rhuss/claude-usage": {
+      "full_name": "rhuss/claude-usage",
+      "stars": "0",
+      "url": "https://github.com/rhuss/claude-usage"
+    },
+    "rhuss/corgi-roundup": {
+      "full_name": "rhuss/corgi-roundup",
+      "stars": "0",
+      "url": "https://github.com/rhuss/corgi-roundup"
+    },
+    "rhuss/corgi-voice": {
+      "full_name": "rhuss/corgi-voice",
+      "stars": "1",
+      "url": "https://github.com/rhuss/corgi-voice"
+    },
+    "rhuss/debaser": {
+      "full_name": "rhuss/debaser",
+      "stars": "0",
+      "url": "https://github.com/rhuss/debaser"
+    },
+    "rhuss/mcp-readwise-server": {
+      "full_name": "rhuss/mcp-readwise-server",
+      "stars": "0",
+      "url": "https://github.com/rhuss/mcp-readwise-server"
+    },
+    "rhuss/openshell-sdk-go": {
+      "full_name": "rhuss/openshell-sdk-go",
+      "stars": "2",
+      "url": "https://github.com/rhuss/openshell-sdk-go"
+    },
+    "rhuss/rtl_433-dispatch": {
+      "full_name": "rhuss/rtl_433-dispatch",
+      "stars": "0",
+      "url": "https://github.com/rhuss/rtl_433-dispatch"
+    },
+    "rhuss/slidev-addon-contrast": {
+      "full_name": "rhuss/slidev-addon-contrast",
+      "stars": "0",
+      "url": "https://github.com/rhuss/slidev-addon-contrast"
+    },
+    "tals/corgi": {
+      "full_name": "tals/corgi",
+      "stars": "212",
+      "url": "https://github.com/tals/corgi"
+    }
+  },
+  "talk_years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "talks": [
+    {
+      "extras": [],
+      "month": null,
+      "title": "The Beauty and the Beast: JavaScript meets JMX",
+      "url": "https://ro14nd.de/talks/2013/jayday-javascript-jmx/index.html",
+      "venue": "JayDay 2013, Munich",
+      "year": 2013
+    },
+    {
+      "extras": [],
+      "month": null,
+      "title": "Docker for (Java) Developers",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/docker-meetup/index.html",
+      "venue": "Docker Munich Meetup #2, ConSol",
+      "year": 2014
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "http://vimeo.com/105771547"
+        }
+      ],
+      "month": null,
+      "title": "Jolokia - JMX on Capsaicin",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/javazone-jolokia.pdf",
+      "venue": "JavaZone, Lightning Talk",
+      "year": 2014
+    },
+    {
+      "extras": [],
+      "month": null,
+      "title": "Docker for Java Developers",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/docker-onedaytalk.pdf",
+      "venue": "JBoss OneDayTalk, Germering",
+      "year": 2014
+    },
+    {
+      "extras": [],
+      "month": null,
+      "title": "Docker für Java Entwickler",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/wjax-docker-fuer-entwickler.pdf",
+      "venue": "W-JAX14, Munich",
+      "year": 2014
+    },
+    {
+      "extras": [
+        {
+          "label": "Demo code",
+          "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/devoxx/jolokia-devoxx-2014-demo.tgz"
+        }
+      ],
+      "month": null,
+      "title": "Spicing up JMX with Jolokia",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/devoxx/jolokia-devoxx-2014.pdf",
+      "venue": "Devoxx 2014, Antwerp",
+      "year": 2014
+    },
+    {
+      "extras": [],
+      "month": 3,
+      "title": "JSR-373: On the way to a new Java EE Management Standard",
+      "url": "https://ro14nd.de/talks/2015/javaland-2015-jsr-373.pdf",
+      "venue": "JavaLand, Brühl",
+      "year": 2015
+    },
+    {
+      "extras": [],
+      "month": 3,
+      "title": "Docker für Java Entwickler",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/javaland-2015-docker-fuer-java-entwickler.pdf",
+      "venue": "JavaLand, Brühl",
+      "year": 2015
+    },
+    {
+      "extras": [],
+      "month": 6,
+      "title": "fabric8 ... and Docker, Kubernetes & OpenShift",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/devopscon-2015-fabric8.pdf",
+      "venue": "DevOpsCon, Berlin",
+      "year": 2015
+    },
+    {
+      "extras": [],
+      "month": 4,
+      "title": "Docker für Java Entwickler",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/jax-2015-docker-java.pdf",
+      "venue": "JAX, Mainz",
+      "year": 2015
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=DCQ9SEdteHs"
+        }
+      ],
+      "month": 11,
+      "title": "fabric8",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/devoxx-2015-fabric8.pdf",
+      "venue": "Devoxx, Antwerp",
+      "year": 2015
+    },
+    {
+      "extras": [
+        {
+          "label": "Presenter Notes",
+          "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/devoxx-2015-howto-grow-chili-pepper-notes.pdf"
+        }
+      ],
+      "month": 11,
+      "title": "Howto grow Chili Peppers",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/devoxx-2015-howto-grow-chili-pepper.pdf",
+      "venue": "Devoxx, Antwerp, Ignite Talk",
+      "year": 2015
+    },
+    {
+      "extras": [],
+      "month": 1,
+      "title": "Docker for Java Developers & fabric8 ... and Docker, Kubernetes & OpenShift",
+      "url": null,
+      "venue": "Java User Group Cologne",
+      "year": 2016
+    },
+    {
+      "extras": [
+        {
+          "label": "Slides",
+          "url": "https://github.com/ro14nd-talks/docker-patterns/raw/master/slides.pdf"
+        },
+        {
+          "label": "Docker Image",
+          "url": "https://hub.docker.com/r/rhuss/docker-patterns/"
+        }
+      ],
+      "month": 3,
+      "title": "Docker Patterns",
+      "url": "https://github.com/ro14nd-talks/docker-patterns",
+      "venue": "Javaland, Brühl",
+      "year": 2016
+    },
+    {
+      "extras": [
+        {
+          "label": "Slides",
+          "url": "https://github.com/ro14nd-talks/kubernetes-for-java-developers/raw/master/slides/kubernetes-for-java-developers.pdf"
+        },
+        {
+          "label": "Docker Image",
+          "url": "https://hub.docker.com/r/rhuss/kubernetes-for-java-developers/"
+        }
+      ],
+      "month": 4,
+      "title": "Kubernetes for Java Developers",
+      "url": "https://github.com/ro14nd-talks/kubernetes-for-java-developers",
+      "venue": "JAX, Mainz",
+      "year": 2016
+    },
+    {
+      "extras": [],
+      "month": 6,
+      "title": "Docker Patterns",
+      "url": null,
+      "venue": "DevOpsCon, Berlin",
+      "year": 2016
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=Gjij2t14pfg"
+        }
+      ],
+      "month": 6,
+      "title": "Kubernetes for Java Developers",
+      "url": null,
+      "venue": "JBCNConf, Barcelona",
+      "year": 2016
+    },
+    {
+      "extras": [],
+      "month": 6,
+      "title": "Kubernetes for Java Developers",
+      "url": null,
+      "venue": "JUG Nürnberg, Nuremberg",
+      "year": 2016
+    },
+    {
+      "extras": [],
+      "month": 7,
+      "title": "Kubernetes for Java Developers",
+      "url": null,
+      "venue": "Docker Meetup Bamberg, Bamberg",
+      "year": 2016
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://vimeo.com/181896821"
+        }
+      ],
+      "month": 9,
+      "title": "Jolokia 2.0",
+      "url": "https://ro14nd-talks.github.io/archive/2016/javazone-2016-jolokia-2.pdf",
+      "venue": "JavaZone, Oslo",
+      "year": 2016
+    },
+    {
+      "extras": [
+        {
+          "label": "Video (GER)",
+          "url": "https://www.youtube.com/watch?v=R1nQFl_wQlE"
+        }
+      ],
+      "month": 9,
+      "title": "Kubernetes for Java Developers",
+      "url": null,
+      "venue": "jugh!, Kassel",
+      "year": 2016
+    },
+    {
+      "extras": [],
+      "month": 10,
+      "title": "Jolokia 2.0 & Kubernetes for Java Developers",
+      "url": null,
+      "venue": "JavaSi'16, Portorož",
+      "year": 2016
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Kubernetes for Java Developers",
+      "url": null,
+      "venue": "Devoxx MA, Casablanca",
+      "year": 2016
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Docker Patterns",
+      "url": null,
+      "venue": "ContainerConf, Mannheim",
+      "year": 2016
+    },
+    {
+      "extras": [
+        {
+          "label": "Video (GER)",
+          "url": "https://www.youtube.com/watch?v=R1nQFl_wQlE"
+        }
+      ],
+      "month": 9,
+      "title": "Kubernetes for Java Developers",
+      "url": null,
+      "venue": "jugh!, Kassel",
+      "year": 2016
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Kubernetes und OpenShift als Microservices Plattform",
+      "url": "https://microservices-summit.de/session/kubernetes-und-openshift-als-microservices-plattform",
+      "venue": "MicroService Summit, Berlin",
+      "year": 2016
+    },
+    {
+      "extras": [
+        {
+          "label": "Interview",
+          "url": "https://www.youtube.com/watch?v=Br0aqc4KaFI"
+        }
+      ],
+      "month": 12,
+      "title": "Docker Container Loading",
+      "url": "https://devopsconference.de/session/docker-container-loading/",
+      "venue": "DevOpsCon 2016, Munich",
+      "year": 2016
+    },
+    {
+      "extras": [],
+      "month": 3,
+      "title": "Kubernetes for Java Developers",
+      "url": "https://www.meetup.com/de-DE/Munchen-Kubernetes-Meetup/events/237311449/",
+      "venue": "Kubernetes Meetup, Munich",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=VVXHVCK4BFI"
+        }
+      ],
+      "month": 3,
+      "title": "Docker Container Loading",
+      "url": "https://devopsconference.de/session/docker-container-loading/",
+      "venue": "DevOpsGathering 2017, Bochum",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Interview",
+          "url": "https://www.youtube.com/watch?v=goisiOqJxpE"
+        }
+      ],
+      "month": 5,
+      "title": "Docker Patterns",
+      "url": "https://github.com/ro14nd-talks/docker-patterns/tree/jax2017",
+      "venue": "JAX Mainz",
+      "year": 2017
+    },
+    {
+      "extras": [],
+      "month": 5,
+      "title": "Kubernetes for Java Developers",
+      "url": "https://github.com/ro14nd-talks/kubernetes-for-java-developers/tree/jax2017",
+      "venue": "JAX Mainz",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=m7ZKQgo1r6Q"
+        }
+      ],
+      "month": 5,
+      "title": "Docker Patterns",
+      "url": "https://github.com/ro14nd-talks/docker-patterns/tree/voxxed-athens",
+      "venue": "VoxxedDays Athens",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Interview",
+          "url": "https://www.youtube.com/watch?v=1yH4iihLzxE"
+        }
+      ],
+      "month": 6,
+      "title": "Docker Container Loading",
+      "url": "https://devopsconference.de/container-technologies/docker-container-loading/",
+      "venue": "DevOpsCon Berlin",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=UCC3Lso9GRU"
+        }
+      ],
+      "month": 6,
+      "title": "Docker Patterns",
+      "url": "http://www.jbcnconf.com/2017/infoSpeaker.html?ref=roland-huss",
+      "venue": "JBCNConf Barcelona",
+      "year": 2017
+    },
+    {
+      "extras": [],
+      "month": 7,
+      "title": "Docker Patterns",
+      "url": "https://www.meetup.com/de-DE/Docker-Bamberg/events/240645574/",
+      "venue": "Docker Meetup Bamberg",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://vimeo.com/233785743"
+        }
+      ],
+      "month": 9,
+      "title": "Kubernetes Patterns",
+      "url": "https://2017.javazone.no/program/877bd912e4c340c0ad12ab27a9328611",
+      "venue": "JavaZone Oslo",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Interview",
+          "url": "https://www.youtube.com/watch?v=IO130Zb_vDA"
+        }
+      ],
+      "month": 10,
+      "title": "Java-Entwicklung im Zeitalter von Kubernetes und OpenShift",
+      "url": "https://www.meetup.com/de-DE/DevOps-Frankfurt/events/241112360/",
+      "venue": "DevOps Meetup Frankfort",
+      "year": 2017
+    },
+    {
+      "extras": [],
+      "month": 10,
+      "title": "Docker und OpenShift",
+      "url": "https://ithinkpark.de/",
+      "venue": "iThink Park Nuremberg",
+      "year": 2017
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Kubernetes Patterns",
+      "url": "https://www.meetup.com/de-DE/JUG-Nurnberg/events/244302832/",
+      "venue": "JUG Nuremberg",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://jaxenter.de/java-kubernetes-openshift-75025"
+        }
+      ],
+      "month": 11,
+      "title": "Java-Projekte für Kubernetes und OpenShift entwickeln",
+      "url": "https://jax.de/cloud-container-serverless/java-projekte-fuer-kubernetes-und-openshift-entwickeln/",
+      "venue": "W-JAX Munich",
+      "year": 2017
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Docker-Patterns – Best Practices aus der echten Welt",
+      "url": "https://jax.de/cloud-container-serverless/docker-patterns-best-practices-aus-der-echten-welt/",
+      "venue": "W-JAX Munich",
+      "year": 2017
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Become a Cloud-Native: Java Development in the Age of the Whale",
+      "url": "https://devopsconference.de/container-technologies/become-a-cloud-native-java-development-in-the-age-of-the-whale/",
+      "venue": "DevOpsCon Munich",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/3vfsHc8uaLw"
+        }
+      ],
+      "month": 11,
+      "title": "Kubernetes Pattern",
+      "url": "https://devopsconference.de/container-technologies/kubernetes-patterns/",
+      "venue": "DevOpsCon Munich",
+      "year": 2017
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=qqJnv20hq1E"
+        }
+      ],
+      "month": 2,
+      "title": "Kubernetes Patterns",
+      "url": "https://github.com/ro14nd-talks/kubernetes-patterns/blob/devopsgathering2018bochum/kubernetes-patterns-devopsgathering2018bochum.pdf",
+      "venue": "DevOps Gathering Bochum",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 3,
+      "title": "Java-Entwicklung im Zeichen des Wales",
+      "url": "https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/javaland2018/kubernetes-for-java-developers-javaland2018.pdf",
+      "venue": "JavaLand Brühl",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 4,
+      "title": "Java Development in the age of the Whale",
+      "url": "https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/jug-muenster/kubernetes-for-java-developers-jug-muenster.pdf",
+      "venue": "JUG Münster",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 4,
+      "title": "Von Legacy zu Cloud",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf",
+      "venue": "JAX Mainz",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 4,
+      "title": "Kubernetes Patterns",
+      "url": "https://github.com/ro14nd-talks/kubernetes-patterns/blob/jax2018mainz/kubernetes-patterns-jax2018mainz.pdf",
+      "venue": "JAX Mainz",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 5,
+      "title": "iPaaS: Integration for non-techies",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/fuse-ignite-demo.pdf",
+      "venue": "Red Hat Summit San Francisco",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 5,
+      "title": "Kubernetes Patterns",
+      "url": "https://github.com/ro14nd-talks/kubernetes-patterns/blob/devopscon2018berlin/kubernetes-patterns-devopscon2018berlin.pdf",
+      "venue": "DevOpsCon Berlin",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 6,
+      "title": "Kubernetes for Java developers",
+      "url": "https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/objectforum2018-mannheim/kubernetes-for-java-developers-objectforum2018-mannheim.pdf",
+      "venue": "Objektforum Mannheim",
+      "year": 2018
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=q_803rWJQLw"
+        }
+      ],
+      "month": 6,
+      "title": "Kubernetes Patterns",
+      "url": "https://github.com/ro14nd-talks/kubernetes-patterns/blob/jugth2018jena/kubernetes-patterns-jugth2018jena.pdf",
+      "venue": "JUG Thüringen, Jena",
+      "year": 2018
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/xDwJw3l0ENc"
+        }
+      ],
+      "month": 6,
+      "title": "From Legacy To Cloud",
+      "url": "https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf",
+      "venue": "JBCNConf Barcelona",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 7,
+      "title": "Kubernetes Patterns",
+      "url": null,
+      "venue": "Datev Hackerkegeln Nürnberg",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 7,
+      "title": "Kubernetes Patterns",
+      "url": null,
+      "venue": "DevOps Meetup Würzburg",
+      "year": 2018
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=n3F9zJvG67c"
+        }
+      ],
+      "month": 10,
+      "title": "Kubernetes Patterns: Foundational, Structural, Config and Advanced",
+      "url": "https://www.youtube.com/watch?v=n3F9zJvG67c",
+      "venue": "DevNation Live",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Kubernetes Patterns",
+      "url": null,
+      "venue": "W-JAX München",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Von Legacy zu Cloud",
+      "url": null,
+      "venue": "W-JAX München",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Kubernetes Patterns",
+      "url": "https://ro14nd-talks.github.io/archive/2018/kubernetes-patterns-devoxx2018morocco.pdf",
+      "venue": "Devoxx Morocco",
+      "year": 2018
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/1mt2-LbKuvY"
+        }
+      ],
+      "month": 12,
+      "title": "Shell Ninja: Mastering the Art of Shell Scripting",
+      "url": "https://youtu.be/1mt2-LbKuvY",
+      "venue": "DevOpsCon München",
+      "year": 2018
+    },
+    {
+      "extras": [],
+      "month": 12,
+      "title": "From Legacy to Cloud",
+      "url": null,
+      "venue": "DevOpsCon München",
+      "year": 2018
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/ZVeiw9TyrWM"
+        }
+      ],
+      "month": 3,
+      "title": "Kubernetes Operators",
+      "url": "https://ro14nd-talks.github.io/archive/2019/kubernetes-operators-devopsgathering-2019.pdf",
+      "venue": "DevOpsGathering Bochum",
+      "year": 2019
+    },
+    {
+      "extras": [],
+      "month": 3,
+      "title": "Container Java",
+      "url": "https://ro14nd-talks.github.io/archive/2019/container-java-javaland-2019.pdf",
+      "venue": "Javaland Brühl",
+      "year": 2019
+    },
+    {
+      "extras": [],
+      "month": 5,
+      "title": "Kubernetes Patterns",
+      "url": "https://ro14nd-talks.github.io/archive/2019/kubernetes-patterns-jax-2019.pdf",
+      "venue": "JAX Mainz",
+      "year": 2019
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=Euh_BQoDfZ0"
+        }
+      ],
+      "month": 5,
+      "title": "Wie fit ist Java für die Cloud ?",
+      "url": "https://ro14nd-talks.github.io/archive/2019/container-java-jax-2019.pdf",
+      "venue": "JAX Mainz",
+      "year": 2019
+    },
+    {
+      "extras": [],
+      "month": 5,
+      "title": "Kubernetes Patterns",
+      "url": "https://ro14nd-talks.github.io/archive/2019/kubernetes-patterns-rivieradev-2019.pdf",
+      "venue": "RivieraDev Sophia Antipolis",
+      "year": 2019
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/1mt2-LbKuvY"
+        },
+        {
+          "label": "Interview",
+          "url": "https://youtu.be/VRjnhOljPuI"
+        }
+      ],
+      "month": 6,
+      "title": "Shell Ninja: Mastering the Art of Shell Scripting",
+      "url": null,
+      "venue": "DevOpsCon Berlin",
+      "year": 2019
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=GY9giHDhqLs"
+        },
+        {
+          "label": "Interview",
+          "url": "https://www.youtube.com/watch?v=6BuutiPvw_g"
+        }
+      ],
+      "month": 6,
+      "title": "The Status Quo of Kubernetes Operators",
+      "url": "https://ro14nd-talks.github.io/archive/2019/kubernetes-operators-devopscon-2019.pdf",
+      "venue": "DevOpsCon Berlin",
+      "year": 2019
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=vat4CKx_HZY"
+        }
+      ],
+      "month": 6,
+      "title": "Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2019/knative-containerdays-2019.pdf",
+      "venue": "Container Days Hamburg",
+      "year": 2019
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=VHfyvoV5qns"
+        }
+      ],
+      "month": 10,
+      "title": "Modern event-driven Workloads with Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2019/knative-serverless-architecture-2019.pdf",
+      "venue": "Serverless Architecture Conference Berlin",
+      "year": 2019
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2019/knative-wjax-munich-2019.pdf",
+      "venue": "W-JAX Munich",
+      "year": 2019
+    },
+    {
+      "extras": [],
+      "month": 12,
+      "title": "Kubernetes Operators and how to implement them the Hard Way",
+      "url": "https://ro14nd-talks.github.io/archive/2019/shell-operator-devopscon-2019",
+      "venue": "DevOpsCon Munich",
+      "year": 2019
+    },
+    {
+      "extras": [],
+      "month": 12,
+      "title": "Serverless Workloads with Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2019/knative-devopscon-munich-2019.pdf",
+      "venue": "DevOpsCon Munich",
+      "year": 2019
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=gBEq5CUvkYo"
+        }
+      ],
+      "month": 3,
+      "title": "Knative Introduction",
+      "url": "https://ro14nd-talks.github.io/archive/2020/knative-cyberland-2020.pdf",
+      "venue": "Cyberland",
+      "year": 2020
+    },
+    {
+      "extras": [],
+      "month": 4,
+      "title": "Kubernetes Patterns",
+      "url": "https://ro14nd-talks.github.io/archive/2020/kubernetes-patterns-microxchg-2020.pdf",
+      "venue": "microXchg pre-Event",
+      "year": 2020
+    },
+    {
+      "extras": [],
+      "month": 4,
+      "title": "Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2020/knative-microxchg-2020.pdf",
+      "venue": "microXchg pre-Event",
+      "year": 2020
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://primetime.bluejeans.com/a2m/events/playback/2d13c7cb-6f50-4624-ad3d-d8acdfd3be17"
+        }
+      ],
+      "month": 5,
+      "title": "Knative Introduction for the Curious Java Developer",
+      "url": "https://ro14nd-talks.github.io/archive/2020/knative-intro-redhat-developer-webinar.pdf",
+      "venue": "Red Hat Developer Webinar",
+      "year": 2020
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://developers.redhat.com/summit/2020/event-driven-openshift-serverless"
+        }
+      ],
+      "month": 5,
+      "title": "Modern event-driven workloads with OpenShift Serverless",
+      "url": null,
+      "venue": "Red Hat Virtual Summit",
+      "year": 2020
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/eJmNSYvelSw"
+        }
+      ],
+      "month": 8,
+      "title": "Kubernetes Patterns",
+      "url": "https://ro14nd-talks.github.io/archive/2020/kubernetes-patterns-kubecon-2020.pdf",
+      "venue": "Virtual Kubecon",
+      "year": 2020
+    },
+    {
+      "extras": [],
+      "month": 10,
+      "title": "The Serverless Framework meets Knative with OpenShift Serverless",
+      "url": "https://www.youtube.com/watch?v=HB_oPWOrzOg",
+      "venue": "openshift.tv",
+      "year": 2020
+    },
+    {
+      "extras": [],
+      "month": 10,
+      "title": "Serverless with Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2020/knative-jax-2020.pdf",
+      "venue": "JAX",
+      "year": 2020
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/BVdI2JNhAC4"
+        }
+      ],
+      "month": 10,
+      "title": "Serverless mit Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2020/knative-jcon-2020.pdf",
+      "venue": "JCON Online",
+      "year": 2020
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "KubeCon Office Hours: Event-Driven Applications with Knative",
+      "url": "https://www.youtube.com/watch?v=6gjvuOdc6-c&t=1819s",
+      "venue": "openshift.tv",
+      "year": 2020
+    },
+    {
+      "extras": [],
+      "month": 1,
+      "title": "AMA: Knative Introduction and Road Map Update",
+      "url": "https://www.youtube.com/watch?v=PWJMDWo1An0",
+      "venue": "openshift.tv",
+      "year": 2021
+    },
+    {
+      "extras": [],
+      "month": 1,
+      "title": "OpenShift Commons Briefing on Knative Project",
+      "url": "https://www.youtube.com/watch?v=K0qZW_xf2ew",
+      "venue": "openshift.tv",
+      "year": 2021
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=upiFo-gCi_U"
+        }
+      ],
+      "month": 6,
+      "title": "Modern event-driven Workloads with Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2021/knative-j4k-2021.pdf",
+      "venue": "j4k.io",
+      "year": 2021
+    },
+    {
+      "extras": [],
+      "month": 10,
+      "title": "The Level Up Hour (E49): Getting started with Serverless",
+      "url": "https://www.youtube.com/watch?v=7SUHIbEQFPQ",
+      "venue": "openshift.tv",
+      "year": 2021
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Modern Event Driven Workloads with Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2021/knative-wjax-2021.pdf",
+      "venue": "W-JAX Munich",
+      "year": 2021
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/Abxp_HW6lJE"
+        }
+      ],
+      "month": 5,
+      "title": "Connecting the World to Knative with Kamelets",
+      "url": "https://ro14nd-talks.github.io/archive/2022/knative-kamelet-knativecon-valencia-2022.pdf",
+      "venue": "KnativeCon Valencia",
+      "year": 2022
+    },
+    {
+      "extras": [],
+      "month": 5,
+      "title": "theCube - Interview",
+      "url": "https://youtu.be/JVFQZYfGk3U",
+      "venue": "KubeCon Valencia",
+      "year": 2022
+    },
+    {
+      "extras": [],
+      "month": 3,
+      "title": "Containerful Serverless",
+      "url": "https://ro14nd-talks.github.io/archive/2022/containerful-serverless-jax-2022.pdf",
+      "venue": "JAX Mainz",
+      "year": 2022
+    },
+    {
+      "extras": [],
+      "month": 6,
+      "title": "Containerful Serverless",
+      "url": "https://ro14nd-talks.github.io/archive/2022/containerful-serverless-devopscon-berlin-2022.pdf",
+      "venue": "DevOpsCon Berlin",
+      "year": 2022
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/3-0zVtWqwCE?si=jf01gi2ItZc_zO-B"
+        }
+      ],
+      "month": 10,
+      "title": "Keynote: Containerful Serverless",
+      "url": "https://ro14nd-talks.github.io/archive/2023/containerful-serverless-knativecon-2022.pdf",
+      "venue": "KnativeCon NA Detroit",
+      "year": 2022
+    },
+    {
+      "extras": [],
+      "month": 11,
+      "title": "Elastic Kubernetes",
+      "url": "https://ro14nd-talks.github.io/archive/2022/elastic-kubernetes-devopscon-munich-2022.pdf",
+      "venue": "DevOpsCon Munich",
+      "year": 2022
+    },
+    {
+      "extras": [],
+      "month": 12,
+      "title": "Modern event-driven Workloads with Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2022/knative-wjax-2022.pdf",
+      "venue": "W-JAX Munich",
+      "year": 2022
+    },
+    {
+      "extras": [],
+      "month": 12,
+      "title": "Containerful Serverless",
+      "url": "https://ro14nd-talks.github.io/archive/2022/containerful-serverless-wjax-2022.pdf",
+      "venue": "W-JAX Munich",
+      "year": 2022
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/kjMjOJqg80A"
+        }
+      ],
+      "month": 4,
+      "title": "Knative's Road Ahead: A Project Update",
+      "url": "https://ro14nd-talks.github.io/archive/2023/knative-project-update-2023.pdf",
+      "venue": "KubeCon EU Amsterdam",
+      "year": 2023
+    },
+    {
+      "extras": [],
+      "month": 6,
+      "title": "Hands-on Knative",
+      "url": null,
+      "venue": "DevOpsCon Berlin",
+      "year": 2023
+    },
+    {
+      "extras": [],
+      "month": 6,
+      "title": "Kubernetes Patterns",
+      "url": "https://ro14nd-talks.github.io/archive/2023/kubernetes-patterns-dwx-2023.pdf",
+      "venue": "DWX Nuremberg",
+      "year": 2023
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/3-0zVtWqwCE?si=jf01gi2ItZc_zO-B"
+        }
+      ],
+      "month": 11,
+      "title": "All Cloud-Native Services Are Vulnerable — Block Exploits with Security Behavior Analytics",
+      "url": "https://ro14nd-talks.github.io/archive/2023/sba-kubecon-na-2023.pdf",
+      "venue": "KubeCon NA Chicago",
+      "year": 2023
+    },
+    {
+      "extras": [],
+      "month": 12,
+      "title": "Hands-on Knative: A Practical Dive into Serverless with Kubernetes",
+      "url": "https://ro14nd-talks.github.io/archive/2023/knative-devopscon-munich-2023.pdf",
+      "venue": "DevOpsCon Munich",
+      "year": 2023
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/uk7mpCdIIZc?si=IcJAqEO0NQ02L29u"
+        }
+      ],
+      "month": 3,
+      "title": "Deploying Your Apps to Kubernetes Without the Boilerplate",
+      "url": "https://ro14nd-talks.github.io/archive/2024/appdevelopercon-jkube-paris-2024.pdf",
+      "venue": "AppDeveloperCon",
+      "year": 2024
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=SDV9Q1UKRu4"
+        }
+      ],
+      "month": 3,
+      "title": "10 Years of Kubernetes Patterns Evolution",
+      "url": "https://ro14nd-talks.github.io/archive/2024/kubecon-kubernetes-patterns-paris-2024.pdf",
+      "venue": "KubeCon EU Paris",
+      "year": 2024
+    },
+    {
+      "extras": [],
+      "month": 5,
+      "title": "Kubernetes Patterns",
+      "url": "https://ro14nd-talks.github.io/archive/2025/kubernetes-patterns-jax-2025.pdf",
+      "venue": "JAX Mainz",
+      "year": 2025
+    },
+    {
+      "extras": [],
+      "month": 5,
+      "title": "Hands-on Knative",
+      "url": "https://ro14nd-talks.github.io/archive/2025/knative-jax-2025.pdf",
+      "venue": "JAX Mainz",
+      "year": 2025
+    },
+    {
+      "extras": [],
+      "month": 12,
+      "title": "GPUs on Kubernetes Unlocked",
+      "url": "https://ro14nd-talks.github.io/archive/2025/gpus-on-k8s-unlocked-slides.pdf",
+      "venue": "DevOpsCon Munich",
+      "year": 2025
+    },
+    {
+      "extras": [],
+      "month": 12,
+      "title": "Lifting Large Language Models on Kubernetes",
+      "url": "https://ro14nd-talks.github.io/archive/2025/lifting-llms-on-k8s-slides.pdf",
+      "venue": "DevOpsCon Munich",
+      "year": 2025
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=tLK5jyhQOgA"
+        }
+      ],
+      "month": 3,
+      "title": "Make GenAI Production-Ready with Kubernetes Patterns",
+      "url": "https://ro14nd-talks.github.io/archive/2026/genai-patterns-kubecon-2026.pdf",
+      "venue": "KubeCon EU Amsterdam, with Bilgin Ibryam",
+      "year": 2026
+    },
+    {
+      "extras": [
+        {
+          "label": "Video",
+          "url": "https://youtu.be/xn70sMEiP1Y"
+        },
+        {
+          "label": "Demo",
+          "url": "https://github.com/rhuss/devdash"
+        },
+        {
+          "label": "Resources",
+          "url": "https://gist.github.com/rhuss/008dae570b35a3413e7ac0439f306dfc"
+        }
+      ],
+      "month": 9,
+      "title": "Spec-Driven Development",
+      "url": "https://ro14nd-talks.github.io/archive/2026/sdd-codeeurope-2026.pdf",
+      "venue": "Code Europe Warsaw",
+      "year": 2026
+    },
+    {
+      "extras": [
+        {
+          "label": "Demo",
+          "url": "https://github.com/rhuss/openshell-obo-demo"
+        },
+        {
+          "label": "Resources",
+          "url": "https://gist.github.com/rhuss/a2a815d81753ec91192174838413b9a5"
+        }
+      ],
+      "month": 9,
+      "title": "Securing AI Agents on Kubernetes",
+      "url": "https://ro14nd-talks.github.io/archive/2026/agent-security-codeeurope-2026.pdf",
+      "venue": "Code Europe Warsaw",
+      "year": 2026
+    }
+  ],
+  "total_stars": "4.3k"
+}

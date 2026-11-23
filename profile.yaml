@@ -1,0 +1,120 @@
+# Curated data for the GitHub profile README (rhuss/rhuss).
+#
+# DRAFT: all prose in this file (intro, descriptions, taglines, roles, book
+# descriptions) is a first draft for Roland's review. The nightly job never
+# changes this file; edit it by hand or with the curation skill.
+
+name: Roland Huß
+intro: Software engineer at Red Hat, chili head, co-author of the O'Reilly books "Kubernetes Patterns" and "Generative AI on Kubernetes".
+
+links:
+  - {label: Blog, url: https://ro14nd.de, emoji: "✍️"}
+  - {label: LinkedIn, url: https://www.linkedin.com/in/ro14nd/, emoji: "💼"}
+
+badges:
+  - {label: Kubernetes, color: "326CE5", logo: kubernetes, logo_color: white}
+  - {label: Go, color: "00ADD8", logo: go, logo_color: white}
+  - {label: Java, color: "ED8B00", logo: openjdk, logo_color: white}
+  - {label: Python, color: "3776AB", logo: python, logo_color: white}
+  - {label: Claude Code, color: "D97757", logo: claude, logo_color: white}
+  - {label: OpenShift, color: "EE0000", logo: redhatopenshift, logo_color: white}
+
+main_projects:
+  - repo: rhuss/cc-spex
+    name: cc-spex
+    emoji: "📐"
+    description: >-
+      Spec-driven development for Claude Code, Codex and OpenCode, built as extensions on top of GitHub's Spec-Kit.
+      Adds brainstorming, review gates after spec and plan, worktree isolation, parallel agent teams and spec/code drift checks.
+      A two-phase flow puts the spec up for review before any code is written.
+
+  - repo: AgentTacho/agenttacho
+    name: AgentTacho
+    url: https://agenttacho.dev
+    emoji: "⏱️"
+    description: >-
+      macOS menu bar app that shows coding-agent usage per account: Claude and Codex plan limits with reset times, and spend against a budget for pay-per-token accounts.
+      Reads the logs that Claude Code, Codex and OpenCode already write locally, with a breakdown per model and project and notifications when a threshold is crossed.
+
+  - repo: rhuss/cc-guide
+    name: cc-guide
+    emoji: "🧭"
+    description: >-
+      Plugin for Claude Code, Codex and OpenCode that writes guides from source repositories, transcripts and notes, page by page.
+      A fresh reviewer checks every page against sources pinned to exact commits.
+      When the sources change, it finds the pages that cite changed files and updates only those.
+
+  - repo: tals/corgi
+    name: Corgi
+    emoji: "🐕"
+    description: >-
+      Terminal multiplexer built on Ghostty for running coding agents such as Claude Code, Codex and OpenCode side by side, with per-agent status, activity summaries and session resume.
+      Roland contributes to Corgi and helps support the project.
+
+  - repo: rhuss/debaser
+    name: debaser
+    emoji: "🩹"
+    description: >-
+      Keeps a patched build of someone else's GitHub project: upstream plus an ordered list of patches (upstream PRs, branches from other forks, own branches).
+      Each build merges the patches, runs the project's checks and each patch's acceptance check, and installs a runnable artifact while keeping the previous one as fallback.
+      Merge conflicts and failed checks can be handed to an AI agent, and every agent change lands as its own commit.
+
+  - repo: rhuss/aprofile
+    name: aprofile
+    emoji: "👤"
+    description: >-
+      Gives each account and endpoint of Claude Code, Codex, OpenCode and pi its own command, such as claude-work and claude-personal.
+      Every profile gets its own login, settings and history, and groups decide which profiles share conversations.
+      Covers work and personal accounts, client accounts, and company LLM gateways.
+
+  - repo: rhuss/cc-review
+    name: cc-review
+    emoji: "🔍"
+    description: >-
+      Code review plugin for Claude Code, Codex and OpenCode that runs six specialized reviewers and merges their findings with those of CodeRabbit, Copilot and other tools.
+      A fix loop resolves Critical and Important findings before the report is shown.
+      The same reviews, plus PR comment triage and issue assessment, can run unattended in GitHub Actions.
+
+  - repo: rhuss/cc-prose
+    name: cc-prose
+    emoji: "🖋️"
+    description: >-
+      Writing skills for Claude Code, Codex and OpenCode that produce text in a consistent voice and avoid typical AI writing patterns.
+      Ships eight voice profile templates, extracts new profiles from existing writing samples, and applies a 24-pattern humanizer while writing instead of afterwards.
+
+community:
+  # Formerly NVIDIA/OpenShell; GitHub redirects the old name here.
+  - {repo: ai-openshell/openshell, name: OpenShell, role: contributor, tagline: Runtime that runs autonomous AI agents in sandboxes with policy-controlled access}
+  - {repo: knative/serving, name: Knative, role: alumni-maintainer, tagline: "Kubernetes-based, scale-to-zero, request-driven compute"}
+  - {repo: jolokia/jolokia, name: Jolokia, role: creator, tagline: "JMX on Capsaicin: an HTTP/JSON bridge for JMX"}
+  - {repo: fabric8io/docker-maven-plugin, name: docker-maven-plugin, role: creator, tagline: Maven plugin for building and running Docker images}
+  - {repo: eclipse-jkube/jkube, name: Eclipse JKube, role: co-creator, tagline: Build and deploy Java applications on Kubernetes and OpenShift from Maven or Gradle}
+
+books:
+  - title: Kubernetes Patterns
+    url: https://k8spatterns.com
+    description: Reusable elements for designing cloud native applications, with Bilgin Ibryam (2nd edition).
+    cover: assets/books/kubernetes-patterns.png
+  - title: Generative AI on Kubernetes
+    url: https://www.oreilly.com/library/view/generative-ai-on/9781098171919/
+    description: Running LLMs on Kubernetes, from GPU scheduling and inference to fine-tuning and agentic apps, with Daniele Zonca.
+
+more_tools:
+  - {repo: rhuss/cc-handoff, tagline: Claude Code plugin that writes session handoff notes so the next session picks up decisions and open work}
+  - {repo: rhuss/cc-memory, tagline: "Claude Code memory upkeep: Obsidian sync, semantic linting, cross-project insights and lifecycle status"}
+  - {repo: rhuss/cc-slidev, tagline: Claude Code plugin for developer talks with Slidev and design guardrails against overloaded slides}
+  - {repo: rhuss/cc-skill, tagline: "Evaluate, enhance and measure Claude Code SKILL.md files against skill-authoring patterns"}
+  - {repo: rhuss/cc-hugo, tagline: "Claude Code plugin for Hugo + Blowfish blogs: setup, preview, Jekyll migration and legal pages"}
+  - {repo: rhuss/cc-jira, tagline: Jira workflow management plugin for Claude Code}
+  - {repo: rhuss/cc-threat-model-assessment, tagline: Claude Code plugin for systematic security threat model assessments}
+  - {repo: rhuss/corgi-voice, tagline: "Voice dictation into Corgi panes with a local Whisper server, plus transcript recording"}
+  - {repo: rhuss/corgi-roundup, tagline: "Recap and sort open agent sessions across Corgi workspaces, then close them or follow up"}
+  - {repo: rhuss/claude-usage, tagline: "Token usage, cache hit rates and cost estimates from local Claude Code session logs"}
+  - {repo: rhuss/openshell-sdk-go, tagline: Go SDK for OpenShell with guides and an API reference mapped to gRPC}
+  - {repo: rhuss/mcp-readwise-server, tagline: MCP server for Readwise highlights and the Reader library that stores no credentials}
+  - {repo: rhuss/slidev-addon-contrast, tagline: Live contrast knob for Slidev decks to tune tinted boxes for a weak projector}
+  - {repo: rhuss/alfred-google-tasks-workflow, tagline: "Alfred workflow to add, list and complete Google Tasks, with natural date parsing"}
+  - {repo: rhuss/rtl_433-dispatch, tagline: Dispatches messages received by rtl_433 and publishes them via MQTT}
+
+settings:
+  talks_shown: 8

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 100042,
+    "name": "cc-guide",
+    "full_name": "rhuss/cc-guide",
+    "private": false,
+    "owner": {
+      "login": "rhuss",
+      "html_url": "https://github.com/rhuss",
+      "type": "User"
+    },
+    "html_url": "https://github.com/rhuss/cc-guide",
+    "description": "Source-verified guides for Claude Code",
+    "fork": false,
+    "url": "https://api.github.com/repos/rhuss/cc-guide",
+    "pushed_at": "2026-11-01T10:00:00Z",
+    "stargazers_count": 21,
+    "watchers_count": 21,
+    "forks_count": 2,
+    "archived": false,
+    "visibility": "public",
+    "default_branch": "main"
+  },
+  {
+    "id": 100049,
+    "name": "debaser",
+    "full_name": "rhuss/debaser",
+    "private": false,
+    "owner": {
+      "login": "rhuss",
+      "html_url": "https://github.com/rhuss",
+      "type": "User"
+    },
+    "html_url": "https://github.com/rhuss/debaser",
+    "description": "Debate-style reviews for design decisions",
+    "fork": false,
+    "url": "https://api.github.com/repos/rhuss/debaser",
+    "pushed_at": "2026-11-01T10:00:00Z",
+    "stargazers_count": 9,
+    "watchers_count": 9,
+    "forks_count": 0,
+    "archived": false,
+    "visibility": "public",
+    "default_branch": "main"
+  },
+  {
+    "id": 100056,
+    "name": "aprofile",
+    "full_name": "rhuss/aprofile",
+    "private": false,
+    "owner": {
+      "login": "rhuss",
+      "html_url": "https://github.com/rhuss",
+      "type": "User"
+    },
+    "html_url": "https://github.com/rhuss/aprofile",
+    "description": "Agent profiles for Claude Code",
+    "fork": false,
+    "url": "https://api.github.com/repos/rhuss/aprofile",
+    "pushed_at": "2026-11-01T10:00:00Z",
+    "stargazers_count": 15,
+    "watchers_count": 15,
+    "forks_count": 1,
+    "archived": false,
+    "visibility": "public",
+    "default_branch": "main"
+  },
+  {
+    "id": 100063,
+    "name": "cc-review",
+    "full_name": "rhuss/cc-review",
+    "private": false,
+    "owner": {
+      "login": "rhuss",
+      "html_url": "https://github.com/rhuss",
+      "type": "User"
+    },
+    "html_url": "https://github.com/rhuss/cc-review",
+    "description": "Multi-agent code review",
+    "fork": false,
+    "url": "https://api.github.com/repos/rhuss/cc-review",
+    "pushed_at": "2026-11-01T10:00:00Z",
+    "stargazers_count": 18,
+    "watchers_count": 18,
+    "forks_count": 1,
+    "archived": false,
+    "visibility": "public",
+    "default_branch": "main"
+  },
+  {
+    "id": 100070,
+    "name": "cc-prose",
+    "full_name": "rhuss/cc-prose",
+    "private": false,
+    "owner": {
+      "login": "rhuss",
+      "html_url": "https://github.com/rhuss",
+      "type": "User"
+    },
+    "html_url": "https://github.com/rhuss/cc-prose",
+    "description": "Prose quality tooling for Claude Code",
+    "fork": false,
+    "url": "https://api.github.com/repos/rhuss/cc-prose",
+    "pushed_at": "2026-11-01T10:00:00Z",
+    "stargazers_count": 26,
+    "watchers_count": 26,
+    "forks_count": 2,
+    "archived": false,
+    "visibility": "public",
+    "default_branch": "main"
+  }
+]

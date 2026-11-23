@@ -1,0 +1,22 @@
+{
+  "id": 100126,
+  "name": "serving",
+  "full_name": "knative/serving",
+  "private": false,
+  "owner": {
+    "login": "knative",
+    "html_url": "https://github.com/knative",
+    "type": "Organization"
+  },
+  "html_url": "https://github.com/knative/serving",
+  "description": "Kubernetes-based, scale-to-zero, request-driven compute",
+  "fork": false,
+  "url": "https://api.github.com/repos/knative/serving",
+  "pushed_at": "2026-11-01T10:00:00Z",
+  "stargazers_count": 5712,
+  "watchers_count": 5712,
+  "forks_count": 571,
+  "archived": false,
+  "visibility": "public",
+  "default_branch": "main"
+}

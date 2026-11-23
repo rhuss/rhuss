@@ -4,12 +4,14 @@ Distinguished Engineer at [Red Hat](https://www.redhat.com), chili head, co-auth
 
 ✍️ [Blog](https://ro14nd.de) · 💼 [LinkedIn](https://www.linkedin.com/in/ro14nd/)
 
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white) ![OpenShift](https://img.shields.io/badge/-OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Perl](https://img.shields.io/badge/-Perl-39457E?style=flat-square&logo=perl&logoColor=white) ![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white) ![OpenShift](https://img.shields.io/badge/-OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
 
 ⭐ **4.3k** stars · 🎤 **110** talks · 📚 **2** books
 
 ## Current focus
 
+- 🐚 **[OpenShell](https://github.com/ai-openshell/openshell)** ⭐ 21.9k<br>
+  The safe, private runtime for autonomous AI agents, running them in sandboxes with policy-controlled access. I currently work on its observability and contributed the initial version of the Go SDK.
 - 📐 **[cc-spex](https://github.com/rhuss/cc-spex)** ⭐ 123<br>
   Spec-driven development for Claude Code, Codex and OpenCode, a crossover of GitHub's Spec-Kit with the superpowers skills, built as Spec-Kit extensions. Adds brainstorming, review gates after spec and plan, worktree isolation, parallel agent teams and spec/code drift checks. A two-phase flow puts the spec up for review before any code is written.
 - ⏱️ **[AgentTacho](https://agenttacho.dev)** ⭐ 4<br>
@@ -29,8 +31,6 @@ Distinguished Engineer at [Red Hat](https://www.redhat.com), chili head, co-auth
 
 ## Community
 
-- **[OpenShell](https://github.com/ai-openshell/openshell)** · _contributor_ · ⭐ 21.9k<br>
-  Runtime that runs autonomous AI agents in sandboxes with policy-controlled access
 - **[Knative](https://github.com/knative/serving)** · _alumni maintainer_ · ⭐ 6.1k<br>
   Kubernetes-based, scale-to-zero, request-driven compute
 - **[Jolokia](https://github.com/jolokia/jolokia)** · _creator_ · ⭐ 851<br>

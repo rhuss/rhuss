@@ -15,11 +15,19 @@ badges:
   - {label: Kubernetes, color: "326CE5", logo: kubernetes, logo_color: white}
   - {label: Go, color: "00ADD8", logo: go, logo_color: white}
   - {label: Java, color: "ED8B00", logo: openjdk, logo_color: white}
-  - {label: Python, color: "3776AB", logo: python, logo_color: white}
+  - {label: Perl, color: "39457E", logo: perl, logo_color: white}
   - {label: Claude Code, color: "D97757", logo: claude, logo_color: white}
   - {label: OpenShift, color: "EE0000", logo: redhatopenshift, logo_color: white}
 
 main_projects:
+  # Formerly NVIDIA/OpenShell; GitHub redirects the old name here.
+  - repo: ai-openshell/openshell
+    name: OpenShell
+    emoji: "🐚"
+    description: >-
+      The safe, private runtime for autonomous AI agents, running them in sandboxes with policy-controlled access.
+      I currently work on its observability and contributed the initial version of the Go SDK.
+
   - repo: rhuss/cc-spex
     name: cc-spex
     emoji: "📐"
@@ -84,8 +92,6 @@ main_projects:
       Ships eight voice profile templates, extracts new profiles from existing writing samples, and applies a 24-pattern humanizer while writing instead of afterwards.
 
 community:
-  # Formerly NVIDIA/OpenShell; GitHub redirects the old name here.
-  - {repo: ai-openshell/openshell, name: OpenShell, role: contributor, tagline: Runtime that runs autonomous AI agents in sandboxes with policy-controlled access}
   - {repo: knative/serving, name: Knative, role: alumni-maintainer, tagline: "Kubernetes-based, scale-to-zero, request-driven compute"}
   - {repo: jolokia/jolokia, name: Jolokia, role: creator, tagline: "JMX on Capsaicin: an HTTP/JSON bridge for JMX"}
   - {repo: fabric8io/docker-maven-plugin, name: docker-maven-plugin, role: creator, tagline: Maven plugin for building and running Docker images}

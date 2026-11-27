@@ -91,6 +91,14 @@ main_projects:
       Writing skills for Claude Code, Codex and OpenCode that produce text in a consistent voice and avoid typical AI writing patterns.
       Ships eight voice profile templates, extracts new profiles from existing writing samples, and applies a 24-pattern humanizer while writing instead of afterwards.
 
+  - repo: rhuss/cc-cfp
+    name: cc-cfp
+    emoji: "🎤"
+    description: >-
+      Claude Code plugin that drafts conference talk proposals and speaker bios from reusable conference profiles, starting with a KubeCon + CloudNativeCon profile.
+      A simulated program committee scores each draft, a pre-flight check applies the conference's rules, and a paste view lists every form field with its character count.
+      Nothing is ever submitted for you, and its [user guide](https://ro14nd.de/cc-cfp/) was written with cc-guide.
+
 community:
   - {repo: knative/serving, name: Knative, role: alumni-maintainer, tagline: "Kubernetes-based, scale-to-zero, request-driven compute"}
   - {repo: jolokia/jolokia, name: Jolokia, role: creator, tagline: "JMX on Capsaicin: an HTTP/JSON bridge for JMX"}

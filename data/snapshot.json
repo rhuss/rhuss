@@ -67,6 +67,11 @@
       "stars": "1",
       "url": "https://github.com/rhuss/aprofile"
     },
+    "rhuss/cc-cfp": {
+      "full_name": "rhuss/cc-cfp",
+      "stars": "0",
+      "url": "https://github.com/rhuss/cc-cfp"
+    },
     "rhuss/cc-guide": {
       "full_name": "rhuss/cc-guide",
       "stars": "0",
@@ -74,7 +79,7 @@
     },
     "rhuss/cc-handoff": {
       "full_name": "rhuss/cc-handoff",
-      "stars": "0",
+      "stars": "1",
       "url": "https://github.com/rhuss/cc-handoff"
     },
     "rhuss/cc-hugo": {
@@ -139,7 +144,7 @@
     },
     "rhuss/debaser": {
       "full_name": "rhuss/debaser",
-      "stars": "0",
+      "stars": "1",
       "url": "https://github.com/rhuss/debaser"
     },
     "rhuss/mcp-readwise-server": {
@@ -159,7 +164,7 @@
     },
     "tals/corgi": {
       "full_name": "tals/corgi",
-      "stars": "215",
+      "stars": "214",
       "url": "https://github.com/tals/corgi"
     }
   },
